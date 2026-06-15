@@ -8,8 +8,6 @@ Hooks.once('pbtaSheetConfig', () => {
   // Apply the full sheet configuration
   game.pbta.sheetConfig = {
     rollFormula: "2d10",
-    minMod: -3,
-    maxMod: 4,
     rollShifting: true,
     statToggle: {
       label: "Následek",
@@ -17,15 +15,18 @@ Hooks.once('pbtaSheetConfig', () => {
     },
     rollResults: {
       failure: {
-        range: "14-",
+        start: null,
+        end: 14,
         label: "Neúspěch"
       },
       partial: {
-        range: "15-19",
+        start: 15,
+        end: 19,
         label: "Částečný úspěch"
       },
       success: {
-        range: "20+",
+        start: 20,
+        end: null,
         label: "Kompletní úspěch"
       }
     },
