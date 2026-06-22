@@ -18,6 +18,8 @@
 
 ## Obsah modulu
 
+Systém nepodporuje hexy a škrty a nahrazuje je běžnými číselnými počítadly, které teda bude třeba násobit třemi (6 Vitality namísto 2 hexů se třemi škrty).
+
 ### Deníky postav
 
 Předkonfigurované šablony deníků pro:
@@ -52,6 +54,6 @@ Sada maker pro zrychlení práce Průvodce i hráčů:
 
 | Makro | Popis |
 |---|---|
-| **Hromadný import dovedností a předmětů** | Umožňuje rychlý import většího množství dovedností a předmětů na postavu najednou |
+| **Hromadný import dovedností a předmětů** | Umožňuje rychlý import většího množství dovedností a předmětů |
 | **Generátor tabulky** | Vytvoří tabulku ve formátu `1–1 text, 2–2 text, ...` |
 | **Přepínač vlastností Měňavce** | Přepíná vlastnosti postavy Měňavce mezi přirozenou a proměněnou podobou |
